@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+         background-image:url(810000.jpg),url(giphy.gif)  ;
+         background-repeat: no-repeat;
+         background-size:500px 10000px,100%;
+         background-position: right,left top;
+     
+    }
+    .main{
+        position: absolute;
+        top: 10%;
+        left: 7%;
+        text-align: center;
+        font-size: 250%;
+        
+
+
+    }
+    .main p{
+        font-family: 'Bodoni Moda', serif;
+        color: aliceblue;
+        padding-bottom: 5%;
+
+
+    }
+    .main h1{
+        font-family: 'Shadows Into Light', cursive;
+        color: aliceblue;
+    }
+    .button {
+  border-radius: 5px;
+  background-image: linear-gradient(90deg, rgba(152,21,74,1) 0%, rgba(121,9,9,1) 35%, rgba(59,3,3,1) 97%, rgba(62,0,0,1) 197%);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.register{
+     
+    width: 490px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    left: 68%;
+    top: 10%;
+    font-size: 35px;
+
+          
+}
+.register h1{
+    color: aliceblue;
+}
+.active{
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+    margin: 5%;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #ffffff55;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #4902026e;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+</style>
+<body>
+    <div class="main">
+      <h1>GALAXY</h1>
+      <p>A Journey between planets </p>
+      <a href="lec5.html"><button class="button" style="vertical-align:middle"><span>START </span></button></a>
+    
+    </div>
+    <div class="register">
+        <h1>LOGIN</h1>
+        <input class="active" type="text" placeholder="username">
+        <br>
+        <input class="active" type="password" placeholder="password">
+        <button class="glow-on-hover" type="button">ENTER</button>
+    </div>
+    
+</body>
+</html>

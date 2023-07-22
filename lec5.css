@@ -1,0 +1,390 @@
+body,*{
+
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+ 
+ 
+
+body {
+    height: 12000px;
+    background-color:rgb(77, 2, 2) ;
+    background-image: url(HuGGeENt6kGyixe3hT9tnY.jpg); 
+    background-repeat: repeat-y;
+    background-size: contain;
+   
+  }
+  header {
+    text-align: center;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+    position: fixed;
+    width: 99.8%;
+    height: 70px;
+    margin-left: 1px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+  ul {
+    padding-top: 0.8%;
+    list-style: none;
+    width: 120%;
+    float: right;
+  }
+  li {
+    display: inline-block;
+    padding: 10px 30px;
+
+  }
+  a {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .active {
+    
+    padding-bottom: 10px;
+  }
+  .logo{
+    position: relative;
+ 
+    width: fit-content;
+    right: -3%;
+    top: -162%;
+  }
+  
+header h1{
+    color: aliceblue;
+    font-family: 'Shadows Into Light', cursive;
+    display: inline-block;
+    position: relative;
+    top: -69%;
+    right: 42%;
+    font-size: 32px;
+
+}
+.logo img{
+    display: inline-block;
+    position: relative;
+ 
+   right: 38%;
+    top: -89%;
+
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #000000;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000000;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #000000;
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.planets{
+    cbox-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, .15);
+    
+    backdrop-filter: blur(5px);
+    margin-top: 10%;
+    padding: 1% 1%;
+}
+  .planets h1{
+    color: aliceblue;
+    font-family: 'Mynerve', cursive;
+  }
+  .klm{
+
+    height: fit-content;
+    margin: 2% 2%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2% 6% ;
+    margin: 0% 0%;
+
+
+
+  }
+  .mercury{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  padding: 0% 0% 2% 0%;
+  }
+  .mercury h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .mercury p{
+    color: aliceblue;
+    padding: 11% 14% 6.8% 14%;
+  }
+  .mercury img{
+
+
+    padding: 11% 0% 8% 0%;
+  }
+  .venus{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  margin: 0% 1.5%;
+  padding:0% 0% 2% 0%;
+
+  }
+  .venus h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .venus p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .venus img{
+
+
+    padding: 13% 0% 6% 0%;
+  }
+  .earth{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  padding: 0% 0% 2% 0%;
+
+  }
+  .earth h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .earth p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .earth img{
+
+
+    padding: 4% 0% 2% 0%;
+  }
+  .r2{
+    height: fit-content;
+    margin: 3% 0%;
+  }
+  .r2 .mercury{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  padding: 8.8% 0% 0% 0%;
+  margin: 0% 0%;
+  }
+  .r2 .mercury h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .r2 .mercury p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .r2 .mercury img{
+
+
+    padding: 0% 0% 3% 0%;
+  }
+  .r2 .venus{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  margin: 0% 1.5%;
+  padding:0% 0% 8.8% 0%;
+
+  }
+  .r2 .venus h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .venus p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .r2 .venus img{
+
+
+    padding: 13% 0% 6% 0%;
+  }
+  .r2 .earth{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  padding: 8% 0% 1% 0%;
+
+  }
+  .r2 .earth h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .r2 .earth p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .r2 .earth img{
+
+
+    padding: 4% 0% 8% 0%;
+  }
+  .r3{
+    height: fit-content;
+    margin: 3% 0%;
+  }
+  .r3 .mercury{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  padding: 8.8% 0% 3% 0%;
+  margin: 0% 0%;
+  }
+  .r3 .mercury h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .r3 .mercury p{
+    color: aliceblue;
+    padding: 12% 14% 1% 14%;
+  }
+  .r3 .mercury img{
+
+
+    padding: 0% 0% 12% 0%;
+  }
+  .r3 .venus{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  margin: 0% 1.5%;
+  padding:2.6% 0% 9% 0%;
+
+  }
+  .r3 .venus h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+ .r3 .venus p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .r3 .venus img{
+
+
+    padding: 13% 0% 6% 0%;
+  }
+  .r3 .earth{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+  width: 32%;
+  text-align: center;
+  height: 450px;
+  display: inline-block;
+  padding: 8% 0% 1% 0%;
+
+  }
+  .r3 .earth h1{
+    color: aliceblue;
+    padding: 1% 0%;
+  }
+  .r3 .earth p{
+    color: aliceblue;
+    padding: 8% 14% 1% 14%;
+  }
+  .r3 .earth img{
+
+
+    padding: 4% 0% 8% 0%;
+  }
